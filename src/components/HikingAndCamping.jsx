@@ -5,9 +5,9 @@ const HikingAndCamping = () => {
   return (
     <div className="px-20 py-10">
       <div>
-        <h1 className="text-black font-regular text-2xl uppercase">
+        <h1 className="text-black font-sans font-regular text-2xl uppercase">
           hiking and camping <br></br>
-          <span className="font-semibold">classes</span>
+          <span className="font-sans font-semibold">classes</span>
         </h1>
         <div className="my-5">
           <Indicator />
@@ -21,8 +21,10 @@ const HikingAndCamping = () => {
             alt="activities"
             className="size-28 rounded-full object-scale-down bg-primary"
           />
-          <h3 className="uppercase font-semibold text-lg">activities</h3>
-          <p className="text-black opacity-70 font-medium text-lg">
+          <h3 className="uppercase font-sans font-semibold text-lg">
+            activities
+          </h3>
+          <p className="text-black opacity-70 font-sans font-medium text-lg">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Perferendis accusantium atque laborum quia dicta.
           </p>
@@ -34,8 +36,8 @@ const HikingAndCamping = () => {
             alt="hiking"
             className="size-28 rounded-full object-scale-down bg-primary"
           />
-          <h3 className="uppercase font-semibold text-lg">hiking</h3>
-          <p className="text-black opacity-70 font-medium text-lg">
+          <h3 className="uppercase font-sans font-semibold text-lg">hiking</h3>
+          <p className="text-black opacity-70 font-sans font-medium text-lg">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Perferendis accusantium atque laborum quia dicta.
           </p>
@@ -48,8 +50,10 @@ const HikingAndCamping = () => {
             className="size-28 rounded-full object-scale-down bg-primary"
           />
 
-          <h3 className="uppercase font-semibold text-lg">mountains</h3>
-          <p className="text-black opacity-70 font-medium text-lg">
+          <h3 className="uppercase font-sans font-semibold text-lg">
+            mountains
+          </h3>
+          <p className="text-black opacity-70 font-sans font-medium text-lg">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Perferendis accusantium atque laborum quia dicta.
           </p>

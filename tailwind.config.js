@@ -20,7 +20,8 @@ export default {
         grey3: "rgba(29,29,29,.2)",
         borderGrey: "rgba(0,0,0,0.2)",
         lAccent: "#16cbe7",
-        orange: "#fa6107",
+        oAccent: "#FF5B00",
+        orange: "#FF5B00",
       },
       zIndex: {
         999: 999,
@@ -31,6 +32,9 @@ export default {
         10: 10,
         15: 15,
         ...defaultTheme.borderWidth,
+      },
+      fontFamily: {
+        funky: ['"Comic Sans MS"', "cursive", "sans-serif"],
       },
       screens: {
         xs: "480px",
