@@ -33,6 +33,16 @@ input {
   }
 }
 
-.hero-image {
-  clip-path:polygon(96% 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
+.hero-image-mid {
+  clip-path: polygon(96% 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
+  background-color: rgb(33, 181, 107);
+}
+.hero-image,
+.hero-image-small {
+  clip-path: polygon(96% 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
+  background-color: rgb(8, 18, 32);
+}
+.activity-image-mid {
+  clip-path: polygon(96% 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
+  background-color: rgb(255, 91, 0);
 }
